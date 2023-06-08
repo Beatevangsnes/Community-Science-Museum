@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://github.com/Beatevangsnes/Community-Science-Museum/blob/master/images/communitysciencemuseum.png?raw=true)
 
 ## Description
 
@@ -18,4 +18,4 @@ The primary goal of this project was to design a website that appeals to the cor
 
 ## Contact
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/beate-vangsnes/)
