@@ -1,0 +1,248 @@
+main {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bigimg {
+  display: none;
+}
+
+.smallimg {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.smallimg img {
+  max-width: 100%;
+  padding-top: 10%;
+}
+
+
+h1 {
+  font-family: ailerons;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: ailerons;
+  font-size: 22px;
+  padding-bottom: 10%;
+}
+
+p {
+  padding-bottom: 8%;
+}
+
+.bigtext {
+  grid-column: 1/4;
+  grid-row: 2;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.openingtimesh {
+  grid-column: 1/4;
+  grid-row: 3;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.openingtimes {
+  grid-column: 1/4;
+  grid-row: 4;
+  text-align: center;
+}
+
+.admissionh {
+  grid-column: 1/4;
+  grid-row: 5;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.admission {
+  grid-column: 1/4;
+  grid-row: 6;
+  text-align: center;
+}
+
+.locationh {
+  grid-column: 1/4;
+  grid-row: 7;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.location1 {
+  grid-column: 1/4;
+  grid-row: 8;
+  text-align: center;
+}
+
+.locationimg {
+  grid-column: 1/4;
+  grid-row: 9;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.locationimg img  {
+  max-width: 100%;
+}
+
+.shoph {
+  grid-column: 1/4;
+  grid-row: 10;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.shop {
+  grid-column: 1/4;
+  grid-row: 11;
+  text-align: center;
+}
+
+.foodh {
+  grid-column: 1/4;
+  grid-row: 12;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.food {
+  grid-column: 1/4;
+  grid-row: 13;
+  text-align: center;
+}
+
+.accessibilityh {
+  grid-column: 1/4;
+  grid-row: 14;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.accessibility {
+  grid-column: 1/4;
+  grid-row: 15;
+  text-align: center;
+}
+
+
+@media (min-width: 1000px) {
+
+  .smallimg {
+    display: none;
+  }
+
+  .bigimg {
+    display: block;
+    grid-column: 1/4;
+    grid-row: 1;
+    padding-top: 10%;
+  }
+  
+  .bigimg img {
+    max-width: 100%;
+  }
+
+  h1 {
+    padding-bottom: 10%;
+  }
+
+  .openingtimesh {
+    grid-column: 1/2;
+    grid-row: 3;
+    padding-right: 10%;
+  }
+
+  .openingtimes {
+    grid-column: 1/2;
+    grid-row: 4;
+    padding-right: 10%;
+  }
+
+  .admissionh {
+    grid-column: 2/3;
+    grid-row: 3;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .admission {
+    grid-column: 2/3;
+    grid-row: 4;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .locationh {
+    grid-column: 3/4;
+    grid-row: 3;
+    padding-left: 10%;
+  }
+
+  .location1 {
+    grid-column: 3/4;
+    grid-row: 4;
+    padding-left: 10%;
+  }
+
+  .locationimg {
+    grid-column: 3/4;
+    grid-row: 4;
+    padding-top: 100px;
+    padding-left: 10%;
+  }
+
+  .shoph {
+    grid-column: 1/2;
+    grid-row: 5;
+    padding-right: 10%;
+  }
+
+  .shop {
+    grid-column: 1/2;
+    grid-row: 6;
+    padding-right: 10%;
+  }
+
+  .foodh {
+    grid-column: 2/3;
+    grid-row: 5;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .food {
+    grid-column: 2/3;
+    grid-row: 6;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .accessibilityh {
+    grid-column: 3/4;
+    grid-row: 5;
+    padding-left: 10%;
+  }
+
+  .accessibility {
+    grid-column: 3/4;
+    grid-row: 6;
+    padding-left: 10%;
+  }
+ 
+ }
+
+ @media (min-width: 1420px) {
+  main {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
